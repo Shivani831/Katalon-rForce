@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PostPartOrder" time="109.326" tests="1" failures="0" errors="0">
+   <testsuite name="PostPartOrder" tests="1" failures="0" errors="0" time="109.326" skipped="0" timestamp="2024-06-27 02:45:22" hostname="Shivani Rampally - COGNINE-L137" id="Test Suites/PostPartOrder">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Shivani Rampally\\Katalon Studio\\RforceParts\\Reports\\20240627_024504\\PostPartOrder\\20240627_024506"/>
+         <property name="logFiles" value="C:\\Users\\Shivani Rampally\\Katalon Studio\\RforceParts\\Reports\\20240627_024504\\PostPartOrder\\20240627_024506\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Shivani Rampally - COGNINE-L137"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Edge Chromium 126"/>
+         <property name="hostAddress" value="192.168.0.107"/>
+         <property name="sessionId" value="0c10a6324145437da929e4a16efb5d8e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/PostPartOrder/Login to RForce web app" time="108.751" classname="Test Cases/PostPartOrder/Login to RForce web app" status="PASSED">
+         <system-out><![CDATA[2024-06-27 02:45:23 - [TEST_CASE][PASSED] - Test Cases/PostPartOrder/Login to RForce web app: Test Cases/PostPartOrder/Login to RForce web app
+
+2024-06-27 02:45:23 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Navigate to 'https://renewalbyandersen--test.sandbox.lightning.force.com/lightning/page/home' successfully
+
+2024-06-27 02:45:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-06-27 02:45:24 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2024-06-27 02:45:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-06-27 02:45:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-06-27 02:45:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-06-27 02:45:28 - [MESSAGE][PASSED] - Current window maximized
+
+2024-06-27 02:45:28 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://renewalbyandersen--test.sandbox.lightning.force.com/lightning/page/home' successfully
+
+2024-06-27 02:45:32 - [MESSAGE][PASSED] - Navigate to 'https://renewalbyandersen--test.sandbox.lightning.force.com/lightning/page/home' successfully
+
+2024-06-27 02:45:33 - [TEST_STEP][PASSED] - loginPage.loginPage.login(Username, Password): loginPage.loginPage.login is PASSED
+
+2024-06-27 02:45:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/UserName' is clicked on
+
+2024-06-27 02:45:35 - [MESSAGE][PASSED] - Text 'shivani.rampally@andersencorp.com.test' is set on object 'Object Repository/Login/UserName'
+
+2024-06-27 02:45:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/PassWord' is clicked on
+
+2024-06-27 02:45:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/PassWord'
+
+2024-06-27 02:45:37 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Login button' is clickable
+
+2024-06-27 02:45:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login button' is clicked on
+
+2024-06-27 02:45:53 - [MESSAGE][PASSED] - loginPage.loginPage.login is PASSED
+
+2024-06-27 02:45:53 - [TEST_STEP][PASSED] - purchaseOrder.PurchaseOrder.PurchaseorderHeader(): purchaseOrder.PurchaseOrder.PurchaseorderHeader is PASSED
+
+2024-06-27 02:45:58 - [MESSAGE][PASSED] - Object 'Object Repository/PurchaseOrder/PurchaseOrder button' is present
+
+2024-06-27 02:45:59 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseOrder/PurchaseOrder button' is clicked on
+
+2024-06-27 02:45:59 - [MESSAGE][PASSED] - purchaseOrder.PurchaseOrder.PurchaseorderHeader is PASSED
+
+2024-06-27 02:45:59 - [TEST_STEP][PASSED] - purchaseOrder.PurchaseOrder.NewCostPO(): purchaseOrder.PurchaseOrder.NewCostPO is PASSED
+
+2024-06-27 02:46:02 - [MESSAGE][PASSED] - Object 'Object Repository/PurchaseOrder/NewCostPO button' is present
+
+2024-06-27 02:46:03 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseOrder/NewCostPO button' is clicked on
+
+2024-06-27 02:46:03 - [MESSAGE][PASSED] - purchaseOrder.PurchaseOrder.NewCostPO is PASSED
+
+2024-06-27 02:46:03 - [TEST_STEP][PASSED] - purchaseOrder.PurchaseOrder.CreateNewCostPO(): purchaseOrder.PurchaseOrder.CreateNewCostPO is PASSED
+
+2024-06-27 02:46:12 - [MESSAGE][PASSED] - Object 'Object Repository/PurchaseOrder/Vendor' is present
+
+2024-06-27 02:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseOrder/SearchAccount' is clicked on
+
+2024-06-27 02:46:13 - [MESSAGE][PASSED] - Text 'Renewal by Andersen' is set on object 'Object Repository/PurchaseOrder/SearchAccount'
+
+2024-06-27 02:46:17 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseOrder/Renewal by Andersen' is clicked on
+
+2024-06-27 02:46:17 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseOrder/Save Button' is clicked on
+
+2024-06-27 02:46:17 - [MESSAGE][PASSED] - purchaseOrder.PurchaseOrder.CreateNewCostPO is PASSED
+
+2024-06-27 02:46:17 - [TEST_STEP][PASSED] - addPartDetails.ConfigurePartID.AddParts(): addPartDetails.ConfigurePartID.AddParts is PASSED
+
+2024-06-27 02:46:46 - [MESSAGE][PASSED] - Object 'Object Repository/Parts/Add Parts Button' is present
+
+2024-06-27 02:46:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/Add Parts Button' is clicked on
+
+2024-06-27 02:46:47 - [MESSAGE][PASSED] - addPartDetails.ConfigurePartID.AddParts is PASSED
+
+2024-06-27 02:46:47 - [TEST_STEP][PASSED] - addPartDetails.ConfigurePartID.EnetrPartDetails(): addPartDetails.ConfigurePartID.EnetrPartDetails is PASSED
+
+2024-06-27 02:46:48 - [MESSAGE][PASSED] - Object 'Object Repository/Parts/Parts_Search' is present
+
+2024-06-27 02:46:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/Parts_Search' is clicked on
+
+2024-06-27 02:46:50 - [MESSAGE][PASSED] - Text '9206884' is set on object 'Object Repository/Parts/Parts_Search'
+
+2024-06-27 02:46:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartValue' is clicked on
+
+2024-06-27 02:46:52 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Parts/Quantity'
+
+2024-06-27 02:46:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/AddButton' is clicked on
+
+2024-06-27 02:46:54 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseOrder/Save Button' is clicked on
+
+2024-06-27 02:46:54 - [MESSAGE][PASSED] - addPartDetails.ConfigurePartID.EnetrPartDetails is PASSED
+
+2024-06-27 02:46:54 - [TEST_STEP][PASSED] - addPartDetails.ConfigurePartID.ReleasePO(): addPartDetails.ConfigurePartID.ReleasePO is PASSED
+
+2024-06-27 02:46:59 - [MESSAGE][PASSED] - Object 'Object Repository/Parts/ReleasePO' is present
+
+2024-06-27 02:47:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/ReleasePO' is clicked on
+
+2024-06-27 02:47:00 - [MESSAGE][PASSED] - addPartDetails.ConfigurePartID.ReleasePO is PASSED
+
+2024-06-27 02:47:00 - [TEST_STEP][PASSED] - addPartDetails.ConfigurePartID.confirmationPopUp(): addPartDetails.ConfigurePartID.confirmationPopUp is PASSED
+
+2024-06-27 02:47:03 - [MESSAGE][PASSED] - Object 'Object Repository/Release PO/ReleasePOConfirmationPopUp' is present
+
+2024-06-27 02:47:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/ReleasePO' is clicked on
+
+2024-06-27 02:47:10 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseOrder/Save Button' is clicked on
+
+2024-06-27 02:47:10 - [MESSAGE][PASSED] - addPartDetails.ConfigurePartID.confirmationPopUp is PASSED
+
+2024-06-27 02:47:10 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2024-06-27 02:47:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-06-27 02:47:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-06-27 02:45:22 - [TEST_SUITE][PASSED] - PostPartOrder: Test Cases/PostPartOrder/Login to RForce web app]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

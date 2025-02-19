@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PostPartOrder" time="154.044" tests="1" failures="1" errors="0">
+   <testsuite name="PostPartOrder" tests="1" failures="1" errors="0" time="154.044" skipped="0" timestamp="2024-06-27 02:35:18" hostname="Shivani Rampally - COGNINE-L137" id="Test Suites/PostPartOrder">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Shivani Rampally\\Katalon Studio\\RforceParts\\Reports\\20240627_023444\\PostPartOrder\\20240627_023446"/>
+         <property name="logFiles" value="C:\\Users\\Shivani Rampally\\Katalon Studio\\RforceParts\\Reports\\20240627_023444\\PostPartOrder\\20240627_023446\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Shivani Rampally\\Katalon Studio\\RforceParts\\Reports\\20240627_023444\\PostPartOrder\\20240627_023446\\1719436071080.png, C:\\Users\\Shivani Rampally\\Katalon Studio\\RforceParts\\Reports\\20240627_023444\\PostPartOrder\\20240627_023446\\1719436071453.png"/>
+         <property name="hostName" value="Shivani Rampally - COGNINE-L137"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Edge Chromium 126"/>
+         <property name="hostAddress" value="192.168.0.107"/>
+         <property name="sessionId" value="5aaa52ff6cafb4057c0414efe914250f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/PostPartOrder/Login to RForce web app" time="153.371" classname="Test Cases/PostPartOrder/Login to RForce web app" status="FAILED">
+         <failure type="FAILED" message="Test Cases/PostPartOrder/Login to RForce web app FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Parts/Parts_Search' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at addPartDetails.ConfigurePartID.EnetrPartDetails(ConfigurePartID.groovy:35)
+	at addPartDetails.ConfigurePartID.invokeMethod(ConfigurePartID.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login to RForce web app.run(Login to RForce web app:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1719435886239.run(TempTestSuite1719435886239.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/Parts_Search' located by '//input[@id='combobox-input-529']
+' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2024-06-27 02:35:19 - [TEST_CASE][FAILED] - Test Cases/PostPartOrder/Login to RForce web app: Test Cases/PostPartOrder/Login to RForce web app FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Parts/Parts_Search' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at addPartDetails.ConfigurePartID.EnetrPartDetails(ConfigurePartID.groovy:35)
+	at addPartDetails.ConfigurePartID.invokeMethod(ConfigurePartID.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login to RForce web app.run(Login to RForce web app:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1719435886239.run(TempTestSuite1719435886239.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/Parts_Search' located by '//input[@id='combobox-input-529']
+' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2024-06-27 02:35:19 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Navigate to 'https://renewalbyandersen--test.sandbox.lightning.force.com/lightning/page/home' successfully
+
+2024-06-27 02:35:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-06-27 02:35:20 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2024-06-27 02:35:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-06-27 02:35:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-06-27 02:35:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-06-27 02:35:24 - [MESSAGE][PASSED] - Current window maximized
+
+2024-06-27 02:35:24 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://renewalbyandersen--test.sandbox.lightning.force.com/lightning/page/home' successfully
+
+2024-06-27 02:35:29 - [MESSAGE][PASSED] - Navigate to 'https://renewalbyandersen--test.sandbox.lightning.force.com/lightning/page/home' successfully
+
+2024-06-27 02:35:30 - [TEST_STEP][PASSED] - loginPage.loginPage.login(Username, Password): loginPage.loginPage.login is PASSED
+
+2024-06-27 02:35:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/UserName' is clicked on
+
+2024-06-27 02:35:32 - [MESSAGE][PASSED] - Text 'shivani.rampally@andersencorp.com.test' is set on object 'Object Repository/Login/UserName'
+
+2024-06-27 02:35:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/PassWord' is clicked on
+
+2024-06-27 02:35:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/PassWord'
+
+2024-06-27 02:35:34 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Login button' is clickable
+
+2024-06-27 02:35:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login button' is clicked on
+
+2024-06-27 02:35:47 - [MESSAGE][PASSED] - loginPage.loginPage.login is PASSED
+
+2024-06-27 02:35:47 - [TEST_STEP][PASSED] - purchaseOrder.PurchaseOrder.PurchaseorderHeader(): purchaseOrder.PurchaseOrder.PurchaseorderHeader is PASSED
+
+2024-06-27 02:35:50 - [MESSAGE][PASSED] - Object 'Object Repository/PurchaseOrder/PurchaseOrder button' is present
+
+2024-06-27 02:35:54 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseOrder/PurchaseOrder button' is clicked on
+
+2024-06-27 02:35:54 - [MESSAGE][PASSED] - purchaseOrder.PurchaseOrder.PurchaseorderHeader is PASSED
+
+2024-06-27 02:35:54 - [TEST_STEP][PASSED] - purchaseOrder.PurchaseOrder.NewCostPO(): purchaseOrder.PurchaseOrder.NewCostPO is PASSED
+
+2024-06-27 02:35:58 - [MESSAGE][PASSED] - Object 'Object Repository/PurchaseOrder/NewCostPO button' is present
+
+2024-06-27 02:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseOrder/NewCostPO button' is clicked on
+
+2024-06-27 02:35:59 - [MESSAGE][PASSED] - purchaseOrder.PurchaseOrder.NewCostPO is PASSED
+
+2024-06-27 02:35:59 - [TEST_STEP][PASSED] - purchaseOrder.PurchaseOrder.CreateNewCostPO(): purchaseOrder.PurchaseOrder.CreateNewCostPO is PASSED
+
+2024-06-27 02:36:07 - [MESSAGE][PASSED] - Object 'Object Repository/PurchaseOrder/Vendor' is present
+
+2024-06-27 02:36:07 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseOrder/SearchAccount' is clicked on
+
+2024-06-27 02:36:08 - [MESSAGE][PASSED] - Text 'Renewal by Andersen' is set on object 'Object Repository/PurchaseOrder/SearchAccount'
+
+2024-06-27 02:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseOrder/Renewal by Andersen' is clicked on
+
+2024-06-27 02:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseOrder/Save Button' is clicked on
+
+2024-06-27 02:36:14 - [MESSAGE][PASSED] - purchaseOrder.PurchaseOrder.CreateNewCostPO is PASSED
+
+2024-06-27 02:36:14 - [TEST_STEP][PASSED] - addPartDetails.ConfigurePartID.AddParts(): addPartDetails.ConfigurePartID.AddParts is PASSED
+
+2024-06-27 02:36:48 - [MESSAGE][PASSED] - Object 'Object Repository/Parts/Add Parts Button' is present
+
+2024-06-27 02:36:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/Add Parts Button' is clicked on
+
+2024-06-27 02:36:49 - [MESSAGE][PASSED] - addPartDetails.ConfigurePartID.AddParts is PASSED
+
+2024-06-27 02:36:49 - [TEST_STEP][FAILED] - addPartDetails.ConfigurePartID.EnetrPartDetails(): Unable to verify object 'Object Repository/Parts/Parts_Search' is present
+
+2024-06-27 02:37:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='combobox-input-529']
+'. Please recheck the objects properties to make sure the desired element is located. 
+
+2024-06-27 02:37:51 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/Parts_Search' located by '//input[@id='combobox-input-529']
+' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/Parts_Search' located by '//input[@id='combobox-input-529']
+' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at addPartDetails.ConfigurePartID.EnetrPartDetails(ConfigurePartID.groovy:35)
+	at addPartDetails.ConfigurePartID.invokeMethod(ConfigurePartID.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login to RForce web app.run(Login to RForce web app:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1719435886239.run(TempTestSuite1719435886239.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\Shivani Rampally\\Katalon Studio\\RforceParts\\Reports\\20240627_023444\\PostPartOrder\\20240627_023446\\1719436071080.png]]
+
+2024-06-27 02:37:51 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Parts/Parts_Search' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Parts/Parts_Search' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at addPartDetails.ConfigurePartID.EnetrPartDetails(ConfigurePartID.groovy:35)
+	at addPartDetails.ConfigurePartID.invokeMethod(ConfigurePartID.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login to RForce web app.run(Login to RForce web app:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1719435886239.run(TempTestSuite1719435886239.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/Parts_Search' located by '//input[@id='combobox-input-529']
+' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+[[ATTACHMENT|C:\\Users\\Shivani Rampally\\Katalon Studio\\RforceParts\\Reports\\20240627_023444\\PostPartOrder\\20240627_023446\\1719436071453.png]]
+
+2024-06-27 02:37:51 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Parts/Parts_Search' is present
+
+2024-06-27 02:37:51 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2024-06-27 02:37:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-06-27 02:37:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2024-06-27 02:35:19 - [TEST_CASE][FAILED] - Test Cases/PostPartOrder/Login to RForce web app: Test Cases/PostPartOrder/Login to RForce web app FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Parts/Parts_Search' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at addPartDetails.ConfigurePartID.EnetrPartDetails(ConfigurePartID.groovy:35)
+	at addPartDetails.ConfigurePartID.invokeMethod(ConfigurePartID.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login to RForce web app.run(Login to RForce web app:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1719435886239.run(TempTestSuite1719435886239.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/Parts_Search' located by '//input[@id='combobox-input-529']
+' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-06-27 02:35:18 - [TEST_SUITE][FAILED] - PostPartOrder: Test Cases/PostPartOrder/Login to RForce web app FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Parts/Parts_Search' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at addPartDetails.ConfigurePartID.EnetrPartDetails(ConfigurePartID.groovy:35)
+	at addPartDetails.ConfigurePartID.invokeMethod(ConfigurePartID.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login to RForce web app.run(Login to RForce web app:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1719435886239.run(TempTestSuite1719435886239.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/Parts_Search' located by '//input[@id='combobox-input-529']
+' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-out>
+      <system-err><![CDATA[2024-06-27 02:35:18 - [TEST_SUITE][FAILED] - PostPartOrder: Test Cases/PostPartOrder/Login to RForce web app FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Parts/Parts_Search' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at addPartDetails.ConfigurePartID.EnetrPartDetails(ConfigurePartID.groovy:35)
+	at addPartDetails.ConfigurePartID.invokeMethod(ConfigurePartID.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login to RForce web app.run(Login to RForce web app:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1719435886239.run(TempTestSuite1719435886239.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/Parts_Search' located by '//input[@id='combobox-input-529']
+' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+   </testsuite>
+</testsuites>

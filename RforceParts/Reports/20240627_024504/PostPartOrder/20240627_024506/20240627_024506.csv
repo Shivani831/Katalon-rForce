@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PostPartOrder,Edge Chromium 126,,,2024-06-27 02:45:22,2024-06-27 02:47:12,1m - 49.326s,PASSED
+,,,,,,,
+Test Cases/PostPartOrder/Login to RForce web app,Edge Chromium 126,,,2024-06-27 02:45:23,2024-06-27 02:47:12,1m - 48.751s,PASSED
+Start listener action : BeforeTestCase,Edge Chromium 126,,,2024-06-27 02:45:23,2024-06-27 02:45:32,9.018s,PASSED
+"loginPage.loginPage.login(Username, Password)",Edge Chromium 126,,,2024-06-27 02:45:33,2024-06-27 02:45:53,20.348s,PASSED
+purchaseOrder.PurchaseOrder.PurchaseorderHeader(),Edge Chromium 126,,,2024-06-27 02:45:53,2024-06-27 02:45:59,5.649s,PASSED
+purchaseOrder.PurchaseOrder.NewCostPO(),Edge Chromium 126,,,2024-06-27 02:45:59,2024-06-27 02:46:03,3.947s,PASSED
+purchaseOrder.PurchaseOrder.CreateNewCostPO(),Edge Chromium 126,,,2024-06-27 02:46:03,2024-06-27 02:46:17,14.153s,PASSED
+addPartDetails.ConfigurePartID.AddParts(),Edge Chromium 126,,,2024-06-27 02:46:17,2024-06-27 02:46:47,29.455s,PASSED
+addPartDetails.ConfigurePartID.EnetrPartDetails(),Edge Chromium 126,,,2024-06-27 02:46:47,2024-06-27 02:46:54,7.273s,PASSED
+addPartDetails.ConfigurePartID.ReleasePO(),Edge Chromium 126,,,2024-06-27 02:46:54,2024-06-27 02:47:00,6.010s,PASSED
+addPartDetails.ConfigurePartID.confirmationPopUp(),Edge Chromium 126,,,2024-06-27 02:47:00,2024-06-27 02:47:10,10.640s,PASSED
+Start listener action : AfterTestCase,Edge Chromium 126,,,2024-06-27 02:47:10,2024-06-27 02:47:12,1.284s,PASSED
