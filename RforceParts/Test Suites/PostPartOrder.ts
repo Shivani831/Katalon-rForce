@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>PostPartOrder</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>293fb31e-ed1d-4c1b-860b-1a6a7adf9db2</testSuiteGuid>
+   <testCaseLink>
+      <guid>7d52e209-e2d1-44b2-8ff0-e0a43e75b5ca</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>''</defaultValue>
+         <description></description>
+         <id>abfa7417-0f93-4252-901b-5af957047a01</id>
+         <masked>false</masked>
+         <name>Username</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/PostPartOrder/Login to RForce web app</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>acf5d633-c282-43f8-92af-03f03a4b467e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/UserCredentials</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>acf5d633-c282-43f8-92af-03f03a4b467e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>abfa7417-0f93-4252-901b-5af957047a01</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>acf5d633-c282-43f8-92af-03f03a4b467e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>af1bbda6-2adf-4c00-9c30-7e4ec21de7c0</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
