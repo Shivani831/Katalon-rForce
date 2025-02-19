@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PostPartOrder" time="12.516" tests="1" failures="0" errors="1">
+   <testsuite name="PostPartOrder" tests="1" failures="0" errors="1" time="12.516" skipped="0" timestamp="2024-06-26 23:28:51" hostname="Shivani Rampally - COGNINE-L137" id="Test Suites/PostPartOrder">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Shivani Rampally\\Katalon Studio\\RforceParts\\Reports\\20240626_232818\\PostPartOrder\\20240626_232820"/>
+         <property name="logFiles" value="C:\\Users\\Shivani Rampally\\Katalon Studio\\RforceParts\\Reports\\20240626_232818\\PostPartOrder\\20240626_232820\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Shivani Rampally - COGNINE-L137"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Edge Chromium 126"/>
+         <property name="hostAddress" value="192.168.0.107"/>
+         <property name="sessionId" value="0f2a782242bf7e8003e0a8e7225f146f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/PostPartOrder/Login to RForce web app" time="11.954" classname="Test Cases/PostPartOrder/Login to RForce web app" status="ERROR">
+         <error type="ERROR" message="Test Cases/PostPartOrder/Login to RForce web app FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Username for class: Script1719419374711
+	at Login to RForce web app.run(Login to RForce web app:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1719424700901.run(TempTestSuite1719424700901.groovy:36)
+"/>
+         <system-out><![CDATA[2024-06-26 23:28:52 - [TEST_CASE][ERROR] - Test Cases/PostPartOrder/Login to RForce web app: Test Cases/PostPartOrder/Login to RForce web app FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Username for class: Script1719419374711
+	at Login to RForce web app.run(Login to RForce web app:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1719424700901.run(TempTestSuite1719424700901.groovy:36)
+
+
+2024-06-26 23:28:52 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Navigate to 'https://renewalbyandersen--test.sandbox.lightning.force.com/lightning/page/home' successfully
+
+2024-06-26 23:28:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-06-26 23:28:53 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2024-06-26 23:28:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-06-26 23:28:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-06-26 23:28:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-06-26 23:28:57 - [MESSAGE][PASSED] - Current window maximized
+
+2024-06-26 23:28:57 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://renewalbyandersen--test.sandbox.lightning.force.com/lightning/page/home' successfully
+
+2024-06-26 23:29:02 - [MESSAGE][PASSED] - Navigate to 'https://renewalbyandersen--test.sandbox.lightning.force.com/lightning/page/home' successfully
+
+2024-06-26 23:29:02 - [TEST_STEP][ERROR] - loginPage.loginPage.login(Username, Password): Test Cases/PostPartOrder/Login to RForce web app FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Username for class: Script1719419374711
+	at Login to RForce web app.run(Login to RForce web app:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1719424700901.run(TempTestSuite1719424700901.groovy:36)
+
+
+2024-06-26 23:29:02 - [MESSAGE][ERROR] - Test Cases/PostPartOrder/Login to RForce web app FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Username for class: Script1719419374711
+	at Login to RForce web app.run(Login to RForce web app:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1719424700901.run(TempTestSuite1719424700901.groovy:36)
+
+
+2024-06-26 23:29:02 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2024-06-26 23:29:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-06-26 23:29:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2024-06-26 23:28:52 - [TEST_CASE][ERROR] - Test Cases/PostPartOrder/Login to RForce web app: Test Cases/PostPartOrder/Login to RForce web app FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Username for class: Script1719419374711
+	at Login to RForce web app.run(Login to RForce web app:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1719424700901.run(TempTestSuite1719424700901.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-06-26 23:28:51 - [TEST_SUITE][ERROR] - PostPartOrder: Test Cases/PostPartOrder/Login to RForce web app FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Username for class: Script1719419374711
+	at Login to RForce web app.run(Login to RForce web app:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1719424700901.run(TempTestSuite1719424700901.groovy:36)]]></system-out>
+      <system-err><![CDATA[2024-06-26 23:28:51 - [TEST_SUITE][ERROR] - PostPartOrder: Test Cases/PostPartOrder/Login to RForce web app FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Username for class: Script1719419374711
+	at Login to RForce web app.run(Login to RForce web app:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1719424700901.run(TempTestSuite1719424700901.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

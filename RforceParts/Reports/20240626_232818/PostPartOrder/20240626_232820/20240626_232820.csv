@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PostPartOrder,Edge Chromium 126,,,2024-06-26 23:28:51,2024-06-26 23:29:04,12.516s,ERROR
+,,,,,,,
+Test Cases/PostPartOrder/Login to RForce web app,Edge Chromium 126,,,2024-06-26 23:28:52,2024-06-26 23:29:04,11.954s,ERROR
+Start listener action : BeforeTestCase,Edge Chromium 126,,,2024-06-26 23:28:52,2024-06-26 23:29:02,9.722s,PASSED
+"loginPage.loginPage.login(Username, Password)",Edge Chromium 126,,,2024-06-26 23:29:02,2024-06-26 23:29:02,0.042s,ERROR
+Start listener action : AfterTestCase,Edge Chromium 126,,,2024-06-26 23:29:02,2024-06-26 23:29:04,1.296s,PASSED
